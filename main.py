@@ -1,4 +1,4 @@
-from color_reference import ColorReference
+from color_reference.py import ColorReference
 
 def print_color_reference():
     manual = ColorReference.generate_manual()
