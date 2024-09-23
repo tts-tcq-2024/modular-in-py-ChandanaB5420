@@ -1,6 +1,6 @@
 # color_mapping.py
 
-class Color_Mapping:
+class ColorMapping:
     major_colors = [
         "White", "Red", "Green", "Brown", "Blue",
         "Black", "Orange", "Yellow", "Slate", "Violet"
