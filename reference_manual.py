@@ -1,6 +1,7 @@
 # reference_manual.py
 
 from color_pair import get_color_from_pair_number, color_pair_to_string
+
 def generate_reference_manual():
     manual = []    
     for pair_number in range(1, 26):
