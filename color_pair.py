@@ -10,5 +10,6 @@ def get_color_from_pair_number(pair_number):
 def get_pair_number_from_color(major_color, minor_color):
     major_index = MAJOR_COLORS.index(major_color)    
     minor_index = MINOR_COLORS.index(minor_color)    
-    return major_index * len(MINOR_COLORS) + minor_index + 1def color_pair_to_string(major_color, minor_color):
+    return major_index * len(MINOR_COLORS) + minor_index + 1
+    def color_pair_to_string(major_color, minor_color):
     return f'{major_color} {minor_color}'
