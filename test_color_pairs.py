@@ -1,6 +1,7 @@
 # test_color_pairs.py
 
 from color_pair import get_color_from_pair_number, get_pair_number_from_color
+
 def test_number_to_pair(pair_number, expected_major_color, expected_minor_color):
     major_color, minor_color = get_color_from_pair_number(pair_number)    
     assert major_color == expected_major_color
@@ -20,4 +21,4 @@ def run_tests():
 
 if __name__ == '__main__':
     run_tests()
- 
+
