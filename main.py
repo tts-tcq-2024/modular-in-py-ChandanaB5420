@@ -1,9 +1,4 @@
-from color_reference import ColorReference
-
-def print_color_reference():
-    manual = ColorReference.generate_manual()
-    print(manual)
-
-if __name__ == "__main__":
-    print_color_reference()
+pythonCopy code# main.pyfrom reference_manual import print_reference_manual
+if __name__ == '__main__':
+    print_reference_manual()
 
