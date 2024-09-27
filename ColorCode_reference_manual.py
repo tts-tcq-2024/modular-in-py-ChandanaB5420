@@ -9,5 +9,4 @@ def generate_reference_manual():
         manual.append(f'{pair_number}: {color_pair_to_string(major, minor)}')
     return "\n".join(manual)
 
-def print_reference_manual():
-    print(generate_reference_manual())
+
