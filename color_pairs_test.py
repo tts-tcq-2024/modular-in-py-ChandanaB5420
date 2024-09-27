@@ -1,4 +1,4 @@
-# test_color_pairs.py
+# color_pairs_test.py
 
 from color_pair import get_color_from_pair_number, get_pair_number_from_color
 
