@@ -1,4 +1,4 @@
-# reference_manual.py
+# color_pair_reference_manual.py
 
 from color_pair import get_color_from_pair_number, color_pair_to_string
 
