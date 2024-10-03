@@ -1,4 +1,4 @@
-# main.py
+# generate_reference_manual.py
 
 from color_pair_reference_manual import generate_reference_manual
 
